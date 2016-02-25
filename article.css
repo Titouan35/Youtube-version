@@ -72,3 +72,17 @@ section div.img {
 	position: fixed;
 	top: 20px;
 }
+
+
+#article2
+{
+	  width:800px;
+  height:350px;
+  margin: 80px auto;
+  background-color:white;
+  display:flex;
+  position:fixed;
+  top: 500px;
+  left: 350px;
+  margin-top: 150px;
+}

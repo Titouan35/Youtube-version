@@ -26,7 +26,6 @@ body
 <!-- Article -->
 <link rel="stylesheet" href="article.css" />
 <link rel="stylesheet" href="card.css" />
-
 </head>
 <body>
 <!--Menu en haut -->
@@ -36,7 +35,7 @@ body
       <span class="mdl-layout-title" style="bottom:10px; color: #3B3738;">Acme</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" style="color: #3B3738;" href="#">Home</a>
+                <a class="mdl-navigation__link" style="color: #3B3738;" href="index.html">Accueil</a>
                 <a class="mdl-navigation__link" href="#">About</a>
                 <a class="mdl-navigation__link" href="#">Contact</a>
       </nav>
@@ -118,5 +117,11 @@ body
 
         <script src="js/index.js"></script>
 
-
+<!-- Loader -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("1000");
+})
+</script>
 </body>
